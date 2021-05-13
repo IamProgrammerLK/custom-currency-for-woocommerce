@@ -5,13 +5,13 @@
  * Project Name:        Custom Currency For WooCommerce
  * Project Description: Custom Currency For WooCommerce allows you to change the currency symbol used in WooCommerce and you can add a new custom currency 
  * type to the WooCommerce.
- * Project Version:     5.2.2
+ * Project Version:     5.3.0
  * File Name:           CustomCurrencyForWooCommerce.php
  * File Description:    This file is read by WordPress to generate the plugin information in the plugin admin area.
  *                      This file also includes all of the dependencies used by the plugin, registers the activation
  *                      and deactivation functions, and defines a function that starts the plugin.
- * File Version:        5.2.2
- * Last Change:         2021-04-20
+ * File Version:        5.3.0
+ * Last Change:         2021-05-13
  * 
  * @copyright
  * Copyright:           Copyright (C) IamProgrammerLK - All Rights Reserved
@@ -32,10 +32,10 @@
  * Requires at least:   5.0.0
  * Requires PHP:        7.0.0
  * WC requires at least:4.0.0
- * WC tested up to: 	5.2.2
+ * WC tested up to: 	5.3.0
  * Text Domain:         CC4WC
  * Domain Path:         /Public/Languages
- * Version:             5.2.2
+ * Version:             5.3.0
  * Author:              I am Programmer
  * Author URI:          https://iamprogrammer.lk
  * License:             GNU GENERAL PUBLIC LICENSE
