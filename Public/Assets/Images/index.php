@@ -1,1 +1,1 @@
-<?php die( 'Unauthorized access..!' ); ?>
+<?php die( 'Unauthorized access..!' );

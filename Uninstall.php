@@ -3,7 +3,8 @@
 /*
  * @project
  * Project Name:        Custom Currency For WooCommerce
- * Project Description: Custom Currency For WooCommerce allows you to change the currency symbol used in WooCommerce and you can add a new custom currency type to the WooCommerce.
+ * Project Description: Custom Currency For WooCommerce allows you to change the currency symbol used in WooCommerce and you can add a new custom currency 
+ * type to the WooCommerce.
  * Project Version:     1.0.0
  * File Name:           Uninstall.php
  * File Description:    Fired when the plugin is uninstalled
@@ -23,6 +24,7 @@
 */
 
 // If uninstall.php is not called by WordPress, then exit.
-if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) { die; }
-
-?>
+if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) )
+{
+    die;
+}
