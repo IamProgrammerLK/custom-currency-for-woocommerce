@@ -86,6 +86,6 @@ if( ! function_exists( 'get_plugin_data' ) )
         'upgrade_url' => '',
 
         // Displays at the end of the update message container in row of the plugins list table.
-        'update_notice_url' => 'http://plugins.svn.wordpress.org/custom-currency-for-woocommerce/NOTE.txt',
+        'update_notice_url' => 'http://plugins.svn.wordpress.org/custom-currency-for-woocommerce/plugin_update_notice.txt',
 
     ];
