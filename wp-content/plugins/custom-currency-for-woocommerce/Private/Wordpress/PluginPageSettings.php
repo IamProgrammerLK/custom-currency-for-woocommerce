@@ -22,7 +22,8 @@ class PluginPageSettings
     {
         add_filter( 'plugin_action_links_' . $this->PluginOptions[ 'basename' ], [ $this , 'renderPluginsPageLinks' ] );
         add_filter( 'plugin_row_meta', [ $this , 'renderPluginRowMetaLinks'], 10, 2 );
-        do_action( 'in_plugin_update_message-' . $this->PluginOptions['basename']);
+        add_action( 'in_plugin_update_message-' . $this->PluginOptions[ 'basename' ], [ $this, 'renderPluginUpdateMessage' ], 10, 2 );
+        // do_action( 'in_plugin_update_message-' . $this->PluginOptions['basename']);
     }
 
     public function renderPluginsPageLinks( $links )
@@ -79,6 +80,31 @@ class PluginPageSettings
 
         }
         return (array) $links;
+    }
+
+    function renderPluginUpdateMessage( $pluginData, $response ) : void
+    {
+        if( isset( $this->PluginOptions[ 'update_notice_url' ] ) &&
+            ( $this->PluginOptions[ 'update_notice_url' ] != null || $this->PluginOptions[ 'update_notice_url' ] != ''  ) )
+        {
+            echo '<br/>';
+            $curl = curl_init( $this->PluginOptions[ 'update_notice_url' ] );
+            curl_setopt( $curl, CURLOPT_USERAGENT, 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7) AppleWebKit/534.48.3 (KHTML, like Gecko) Version/5.1 Safari/534.48.3' );
+            curl_setopt( $curl, CURLOPT_FAILONERROR, true);
+            $updateNotice = curl_exec( $curl );
+            if ( curl_errno( $curl ) )
+            {
+                $errorMessage = curl_error( $curl );
+                // echo $errorMessage;
+            }
+            else
+            {
+                ob_start();
+                echo $updateNotice;
+                ob_clean();
+            }
+            curl_close( $curl );
+        }
     }
 
 }
