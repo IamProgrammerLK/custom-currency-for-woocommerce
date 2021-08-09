@@ -1,0 +1,64 @@
+{
+  "name": "iamprogrammerlk/customcurrencyforwoocommerce",
+  "description": "Custom Currency For WooCommerce allows you to change the currency symbol used in WooCommerce and you can add a new custom currency type to the WooCommerce.",
+  "type": "project",
+  "keywords": [
+    "currency",
+    "woocommerce",
+    "custom currency",
+    "currency symbols",
+    "crypto currency"
+  ],
+  "homepage": "https://wordpress.org/plugins/custom-currency-for-woocommerce/",
+  "readme": "README.md",
+  "time": "2020-08-19",
+  "license": "gpl-3.0",
+  "authors": [
+    {
+      "name": "I am Programmer",
+      "email": "contact@iamprogrammer.lk",
+      "homepage": "https://iamprogrammer.lk",
+      "role": "Lead Developer"
+    }
+  ],
+  "support": {
+    "email": "support@iamprogrammer.lk",
+    "issues": "https://github.com/IamProgrammerLK/CustomCurrencyForWooCommerce/issues",
+    "forum": "https://community.iamprogrammer.lk",
+    "wiki": "https://github.com/IamProgrammerLK/CustomCurrencyForWooCommerce/wiki",
+    "source": "https://github.com/IamProgrammerLK/CustomCurrencyForWooCommerce",
+    "docs": "https://github.com/IamProgrammerLK/CustomCurrencyForWooCommerce/wiki"
+  },
+  "funding": [
+    {
+        "type": "Buy me a coffee",
+        "url": "https://www.buymeacoffee.com/IamProgrammerLK"
+    },
+    {
+        "type": "Sponsors",
+        "url": "https://sponsors.iamprogrammer.lk/"
+    }
+],
+"require": {
+  "php": ">=7.0.0",
+  "iamprogrammerlk/pluginpressapi": ">=1.0.0"
+},
+"require-dev": {
+},
+"conflict": {
+  "php": "<7.0.0"
+},
+"autoload": {
+  "psr-4": {
+    "IamProgrammerLK\\CustomCurrencyForWooCommerce\\": "Private"
+  }
+},
+"autoload-dev": {
+  "psr-4": {
+    "IamProgrammerLK\\CustomCurrencyForWooCommerce\\": "Private"
+  }
+},
+"minimum-stability": "stable",
+"prefer-stable": true,
+"abandoned": false
+}

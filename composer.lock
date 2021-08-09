@@ -1,0 +1,88 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5ae82fb467517e47f956da6d213e5e1d",
+    "packages": [
+        {
+            "name": "iamprogrammerlk/pluginpressapi",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IamProgrammerLK/PluginPressAPI.git",
+                "reference": "cb545ddd0565d63523b9bf5786d2175687cfb09f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/IamProgrammerLK/PluginPressAPI/zipball/cb545ddd0565d63523b9bf5786d2175687cfb09f",
+                "reference": "cb545ddd0565d63523b9bf5786d2175687cfb09f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "conflict": {
+                "php": "<7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "IamProgrammerLK\\PluginPressAPI\\": "Private"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "I am Programmer",
+                    "email": "iamprogrammerlk@gmail.com",
+                    "homepage": "https://iamprogrammer.lk",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "API wrapper classes for building object-oriented WordPress plugins.",
+            "homepage": "https://iamprogrammerlk.github.io/PluginPressAPI/",
+            "keywords": [
+                "Skeleton",
+                "api",
+                "framework",
+                "plugins",
+                "wordpress"
+            ],
+            "support": {
+                "docs": "https://github.com/IamProgrammerLK/PluginPressAPI/wiki",
+                "email": "support@iamprogrammer.lk",
+                "forum": "https://community.iamprogrammer.lk",
+                "issues": "https://github.com/IamProgrammerLK/PluginPressAPI/issues",
+                "source": "https://github.com/IamProgrammerLK/PluginPressAPI",
+                "wiki": "https://github.com/IamProgrammerLK/PluginPressAPI/wiki"
+            },
+            "funding": [
+                {
+                    "url": "https://www.buymeacoffee.com/IamProgrammerLK",
+                    "type": "Buy me a coffee"
+                },
+                {
+                    "url": "https://sponsors.iamprogrammer.lk/",
+                    "type": "Sponsors"
+                }
+            ],
+            "time": "2021-07-27T00:00:00+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
